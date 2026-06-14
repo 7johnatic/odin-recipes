@@ -1,9 +1,27 @@
 * {
-    text-align: center;
-    
+    border: solid red 1px;
 }
 
-a {
+.link,
+.image,
+.title,
+.description {
+    text-align: center; 
+}
+
+.description {
+    margin-top: 60px;
+}
+
+.ingredients,
+.steps {
+    width: 650px;
+    height: 400x;
+    border: solid blue 3px;
+    display: inline-block;
+}
+
+a.home {
     padding: 5px 70px;
     border: rgb(0, 0, 0) solid 2px;
     background-color: rgb(233, 240, 240);
