@@ -1,12 +1,39 @@
 * {
-    border: solid red 1px;
+    border: solid red 0px;
 }
 
 .link,
 .image,
 .title,
-.description {
+.description,
+.source {
     text-align: center; 
+}
+
+.showcase {
+    margin: 0 auto;
+    display: block;
+}
+
+.source {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+    border: solid rgb(81, 158, 129) 3px;
+}
+
+.recipe {
+    display: inline-block;
+    text-align: center; 
+    margin: 0 33px;
 }
 
 .description {
@@ -17,25 +44,23 @@
 .steps {
     width: 650px;
     height: 400x;
-    border: solid blue 3px;
     display: inline-block;
+    text-align: left;
+    border: solid blue 3px;
+}
+
+li {
+    margin-top: 5px;
 }
 
 a.home {
     padding: 5px 70px;
     border: rgb(0, 0, 0) solid 2px;
     background-color: rgb(233, 240, 240);
-    margin-left: 100px;
     color: black;
 }
 
 img {
     width: 300px;
     height: 300px;
-    margin-left: 50px;
 }
-
-.image {
-    margin-bottom: 20px;
-}
-
